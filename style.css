@@ -132,6 +132,28 @@ section{
     position: relative;
 }
 
+@media screen and (min-width: 750px){          
+    #work #gallery li{
+        width: calc(50% - 5px);
+          height: 250px;
+        list-style: none;
+        margin-bottom: 10px;
+        position: relative;
+      }
+}
+
+@media screen and (min-width: 1200px){                 
+    #work #gallery li{
+        width: calc(33% - 5px);
+          height: 250px;
+        list-style: none;
+        margin-bottom: 10px;
+        position: relative;
+      }
+
+
+}
+
 
 #gallery li:before{
   content:'';
