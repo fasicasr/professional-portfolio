@@ -189,6 +189,7 @@ section{
 #gallery li:hover .content{
     opacity: 1;
     top: 0;
+
 }
 
 about{
