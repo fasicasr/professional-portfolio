@@ -35,6 +35,8 @@ header{
     /* background: red; */
     align-items: center;
     justify-content: space-between;
+   color: rgb(219, 137, 137);
+    
    }
    
    header .logo{
@@ -43,25 +45,26 @@ header{
    }
    
    header nav{
-   
+   /* color: rgb(219, 137, 137); */
    
    }
    
    header nav a{
     margin: 0 10px;
+    color:   rgb(219, 137, 137);
    
    }
    
    header nav a:hover{
-   
-   
+   color:   black;
+
    }
 
    button, .button{
     border: none;
     outline: none;
     cursor: pointer;
-    background: #000;
+    background: rgb(219, 137, 137);
     color: #fff;
     padding: 7px;
     text-transform: uppercase;
