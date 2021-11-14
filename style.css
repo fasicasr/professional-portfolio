@@ -5,10 +5,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-article,p,li,ul,h1,h2,h3{
+/* article,p,li,ul,h1,h2,h3{
     margin: 0;
     padding: 0;
-}
+} */
 
 a{
     border: none;
@@ -71,7 +71,10 @@ button, .button{
     margin: 20px 0;
     padding: 15px;
 }
-   
+
+button, .button:hover{
+    color: black;
+}
 .sectionTitle{
     font-weight: bold;
     font-size: 28px;
@@ -81,19 +84,17 @@ button, .button{
 #content p {
     width: 50%;
     display: flex;
-    /* align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    line-height: 20px;
-    margin:0px;
-    display: inline-block; */
+    font-size: 21px;
+   
 }
 
 #about img {
-    width: 462px;
+    width: 340px;
     height: auto;
     float: right;
-    margin: 6px;
+    margin-top: -284px;
+    margin-right: 74px;
+
 }
 
 
@@ -136,14 +137,12 @@ section{
  font-weight: normal;
 }
 
-#work{
-    /* background: yellow; */
-}
    
 #work #gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    color: white;
 }
    
 #work #gallery li{
@@ -251,7 +250,7 @@ about {
 
 @media screen and (min-width: 750px){          
     #skills #skillimg li{
-        width: calc(50% - 5px);
+        width: calc(32% - 29px);
           height: 250px;
         list-style: none;
         margin-bottom: 10px;
