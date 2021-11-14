@@ -60,7 +60,7 @@ header{
 
    }
 
-   button, .button{
+button, .button{
     border: none;
     outline: none;
     cursor: pointer;
@@ -70,13 +70,32 @@ header{
     text-transform: uppercase;
     margin: 20px 0;
     padding: 15px;
-   }
+}
    
 .sectionTitle{
     font-weight: bold;
     font-size: 28px;
     margin-bottom: 20px;
 }
+
+#content p {
+    width: 50%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    line-height: 20px;
+    margin:0px;
+    display: inline-block; */
+}
+
+#about img {
+    width: 462px;
+    height: auto;
+    float: right;
+    margin: 6px;
+}
+
 
 @media screen and (min-width: 800px){            
     .sectionTitle{
@@ -192,7 +211,7 @@ section{
 
 }
 
-about{
+about {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -208,6 +227,7 @@ about{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* margin: 163px; */
 }
 
 #skills ul li{
@@ -221,4 +241,32 @@ about{
 #skills ul li i{
  font-size: 30px;
  margin-bottom: 10px;
+}
+/* 
+#image img {
+   display: block;
+  margin-left: auto;
+       
+} */
+
+@media screen and (min-width: 750px){          
+    #skills #skillimg li{
+        width: calc(50% - 5px);
+          height: 250px;
+        list-style: none;
+        margin-bottom: 10px;
+        position: relative;
+      }
+}
+
+@media screen and (min-width: 1200px){                 
+    #skills #skillimg li{
+        width: calc(33% - 5px);
+          height: 250px;
+        list-style: none;
+        margin-bottom: 10px;
+        position: relative;
+      }
+
+
 }
